@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #001;
+    display: flex; /* to make the div content become with the menu */
+}
+
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* to make the picture circle; but, the img is out the div, and the div is a circle; so, we will do overflow */
+    overflow: hidden; /* solve the problem of circle by overflow */
+    border: 3px solid white;
+    flex-shrink: 0; /* when we make the width of menu 60px, the img have been hidden, so we do the flex-shrink with value 0 to make it show; and if we do 1, the img will shrink */
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.menu{
+    background-color: #123;
+    width: 40px; /* was make it 260px, */
+    height: 100vh;
+    padding: 20px;
+    overflow:hidden;
+    transition: .8s; /* for the hover of menu */ 
+}
+
+.menu:hover{
+    width: 260px; /* we make the 260 as a hover then menu it self. */ 
+}
+
+ul{
+    list-style: none;
+    position: relative; /* make it relative for the log-out, and also give it a height 95% to become in the bottom of the menu */
+    height: 95%;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.5s; /* for the hover */
+}
+
+ul li a:hover , .active , .data-info .box:hover{ /* we do data-info .box:hover after doing its style that you will see it down */
+    background-color: #ffffff55;
+    width: 100%;
+}
+
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.log-out a{
+    background-color: red;
+}
+
+ul li a i{
+    font-size: 30px;
+}
+
+.content{
+    width: 100%; /* if you want to see the width of content, make before background-color */
+    margin: 10px;
+}
+
+.title-info{
+    background-color: #1655d4;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* to make space between the DashBoard and the icon of it */
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.data-info .box{
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px; /* same the width and better */
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.data-info .box i{
+    font-size: 40px;
+}
+
+.data-info .box .data span{
+    font-size: 30px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+}
+
+th , td{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+}
+
+th{
+    background-color: blue;
+}
+
+td{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.price , .count{
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.price{
+    background-color: green;
+}
+
+.count{
+    background-color: gold;
+    color: black;
+}
+
+td:hover{
+    background-color: #ffffff55;
+}

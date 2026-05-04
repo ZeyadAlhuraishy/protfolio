@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زياد الحريشي | Zeyad Alhuraishi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Zeyad</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-key="nav-home">الرئيسية</a></li>
+                <li><a href="#about" data-key="nav-about">من أنا</a></li>
+                <li><a href="#skills" data-key="nav-skills">المهارات</a></li>
+                <li><a href="#projects" data-key="nav-projects">المشاريع</a></li>
+                <li><a href="#contact" data-key="nav-contact">اتصل بي</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="btn-icon"><i class="fas fa-globe"></i> EN</button>
+                <button id="theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="container">
+            <div class="hero-content">
+                <h3 data-key="hero-welcome">مرحباً بك، أنا</h3>
+                <h1 data-key="hero-name">زياد الحريشي</h1>
+                <h2 data-key="hero-title">مهندس تكنولوجيا معلومات</h2>
+                <p data-key="hero-desc">خريج هندسة تكنولوجيا معلومات يشغف لتطوير البرمجيات وتحليل البيانات. أسعى لبناء
+                    حلول تقنية مبتكرة.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary" data-key="btn-contact">تواصل معي</a>
+                    <a id="english" href="pdfs/E_ZeyadAlhuraishi-CV.pdf" class="btn secondary" id="download-cv" download
+                        data-key="btn-cv" target="_blank">تحميل السيرة الذاتية الإنجليزية<i
+                            class="fas fa-download"></i></a>
+                    <a id="arabic" href="pdfs/Zeyad_Alhuraishy - CV.pdf" class="btn secondary" id="download-cv" download
+                        data-key="btn-cv2" target="_blank">تحميل السيرة الذاتية عربي/انجليزي<i
+                            class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <div class="img-box">
+                    <img src="images\zeyad.jpg" alt="Zeyad Alhuraishi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="about-title">من أنا</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-info" style="font-size: 20px; font-weight: 500;">
+                    <p data-key="about-intro">أنا مهندس تقنية معلومات أمتلك أساسًا قويًا في علوم الحاسوب، مع خبرة عملية
+                        في تطوير التطبيقات، تحليل البيانات، وإدارة الأنظمة، وأجمع بين الفهم النظري والتطبيقي لبناء حلول
+                        تقنية متكاملة وقابلة للتوسع.</p><br>
+
+                    <p data-key="about-algorithms">🧠 أمتلك خبرة في الخوارزميات وهياكل البيانات، بما يشمل البحث (Binary
+                        Search)، الفرز (Sorting)، وتحليل التعقيد الزمني، إضافة إلى التعامل مع المصفوفات، القوائم،
+                        الأشجار، والطوابير بكفاءة عالية.</p><br>
+
+                    <p data-key="about-software-eng">🏗️ في مجال هندسة البرمجيات، أطبق مبادئ Clean Code، وأعمل على إعادة
+                        هيكلة الأنظمة (Refactoring)، مع استخدام أنماط التصميم وتنظيم المشاريع إلى مكونات قابلة لإعادة
+                        الاستخدام.</p><br>
+
+                    <p data-key="about-flutter">📱 أمتلك خبرة قوية في تطوير التطبيقات باستخدام Flutter، حيث قمت ببناء
+                        تطبيق متكامل لحجز الملاعب يتضمن واجهات احترافية، دعم الوضع الليلي، تعدد اللغات، إدارة متقدمة
+                        للحالة، وتصميم أنظمة للحجوزات والإشعارات وتجربة مستخدم تفاعلية.</p><br>
+
+                    <p data-key="about-web">🌐 كما لدي خبرة في تطوير الويب باستخدام HTML و CSS و JavaScript، مع القدرة
+                        على إنشاء مواقع Portfolio احترافية، دعم تعدد اللغات، التعامل مع النماذج (Forms) وربطها بالخدمات
+                        مثل EmailJS، وحل مشاكل النشر والمسارات.</p><br>
+
+                    <p data-key="about-db">🗄️ في مجال قواعد البيانات، أمتلك معرفة قوية بـ SQL من حيث تصميم الجداول،
+                        بناء العلاقات، وكتابة الاستعلامات بكفاءة.</p><br>
+
+                    <p data-key="about-python">🐍 أجيد البرمجة بلغة Python، وأستخدمها في حل المشكلات الخوارزمية، وتحليل
+                        البيانات، وفهم تدفق تنفيذ البرامج (Execution Flow) بشكل دقيق.</p><br>
+
+                    <p data-key="about-linux">💻 أمتلك أيضًا معرفة بأساسيات أنظمة Linux، وأتعامل مع سطر الأوامر (CLI)
+                        لإدارة الملفات والبيئة التشغيلية.</p><br>
+
+                    <p data-key="about-networking">🌐 في جانب الشبكات وتقنية المعلومات، لدي فهم لنماذج OSI و TCP/IP،
+                        والبروتوكولات مثل HTTP و DNS و DHCP، إضافة إلى التعامل مع عناوين IP و Subnetting، وإعداد الشبكات
+                        المحلية (LAN)، واستكشاف الأخطاء وإصلاحها باستخدام أدوات مثل ping و traceroute، مع معرفة بأساسيات
+                        أمن المعلومات والدعم الفني.</p><br>
+
+                    <p data-key="about-data-analysis">📊 في تحليل البيانات أستخدم Excel بشكل متقدم، وأقوم بأتمتة المهام
+                        باستخدام VBA، وإنشاء لوحات معلومات تفاعلية باستخدام Power BI لعرض البيانات بشكل احترافي.</p><br>
+
+                    <p data-key="about-conclusion">🎯 أمتاز بسرعة كتابة عالية، وقدرة على التعلم السريع، وتحليل المشكلات،
+                        والعمل على مشاريع حقيقية من الفكرة إلى التنفيذ، مما يجعلني مؤهلاً للعمل في مجالات تطوير
+                        التطبيقات، تطوير الويب، تحليل البيانات، أو وظائف تقنية المعلومات والدعم الفني.</p><br>
+
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="label" data-key="info-edu-label">👨‍🎓 التعليم:</span>
+                            <span class="value" data-key="info-edu-val">بكالوريوس هندسة تكنولوجيا معلومات - كلية الهندسة
+                                - جامعة عدن</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label" data-key="info-lang-label">📖اللغات:</span>
+                            <span class="value" data-key="info-lang-val">العربية (الأم)، الإنجليزية (متوسط)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="skills-title">المهارات التقنية</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p data-key="skill-desc-1">تطوير التطبيقات والبرمجة الخلفية</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Flutter & Dart</h3>
+                    <p data-key="skill-desc-2">بناء واجهات لتطبيقات موبايل متكاملة</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web UI</h3>
+                    <p data-key="skill-desc-3">تصميم واجهات الويب باستخدام HTML/CSS/JS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p data-key="skill-desc-4">التعامل مع SQL و NoSQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p data-key="skill-desc-5">أساسيات الشبكات والراوتينج</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Analysis</h3>
+                    <p data-key="skill-desc-6">تحليل البيانات باستخدام Power BI و Excel Advance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="projects-title">المشاريع</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openGallery([
+                    'images/snake/pic1.png',
+                    'images/snake/pic2.png',
+                    'images/snake/pic3.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/snake/pic2.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-1-title">لعبة الثعبان</h3>
+                        <p data-key="proj-1-desc">تصميم وبرمجة موقع ويب متجاوب باستخدام التقنيات الأساسية لعرض الخدمات
+                            التقنية</p>
+                        <a href="projects/New Snake Game/index.html" class="btn-link" data-key="proj-link"
+                            target="_blank">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openGallery([
+                    'images/dashboard/respo1.png',
+                    'images/dashboard/respo2.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/dashboard/respo1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-2-title">لوحة تحكم تفاعلية</h3>
+                        <p data-key="proj-2-desc">تصميم وبرمجة موقع ويب متجاوب باستخدام التقنيات الأساسية لعرض الخدمات
+                            التقنية</p>
+                        <a href="projects/responsive dashboard project/index.html" class="btn-link" data-key="proj-link"
+                            target="_blank">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openGallery([
+                    'images/scrolling web/scroll1.png',
+                    'images/scrolling web/scroll2.png',
+                    'images/scrolling web/scroll3.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/scrolling web/scroll2.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-3-title">صفحة تفاعلية مع الحركة من اعلى لاسفل والعكس</h3>
+                        <p data-key="proj-3-desc">تصميم وبرمجة موقع ويب متجاوب باستخدام التقنيات الأساسية لعرض الخدمات
+                            التقنية</p>
+                        <a href="projects/Scrolling Website Project/index.html" class="btn-link" data-key="proj-link"
+                            target="_blank">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openGallery([
+                    'images/apple front/apple1.png',
+                    'images/apple front/apple2.png',
+                    'images/apple front/apple3.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/apple front/apple1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-4-title">واجهة لعرض الوان هواتف ابل</h3>
+                        <p data-key="proj-4-desc">تصميم وبرمجة موقع ويب متجاوب باستخدام التقنيات الأساسية لعرض الخدمات
+                            التقنية</p>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openGallery([
+                    'images/interfaces/Flu1.png',
+                    'images/interfaces/Flu2.png',
+                    'images/interfaces/Flu3.png',
+                    'images/interfaces/Flu4.png',
+                    'images/interfaces/Flu5.png',
+                    'images/interfaces/Flu6.png',
+                    'images/interfaces/Flu7.png',
+                    'images/interfaces/Flu8.png',
+                    'images/interfaces/Flu9.png',
+                    'images/interfaces/Flu10.png',
+                    'images/interfaces/Flu11.png',
+                    'images/interfaces/Flu12.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/interfaces/Flu1.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-5-title">تطبيق جوال لادارة الملاعب</h3>
+                        <p data-key="proj-5-desc">تصميم وبرمجة تطبيق موبايل متجاوب باستخدام التقنيات الأساسية لعرض
+                            الخدمات التقنية</p>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openGallery([
+                    'images/interfaces/PBi1.png',
+                    'images/interfaces/PBi2.png',
+                    'images/interfaces/PBi3.png',
+                    'images/interfaces/PBi4.png',
+                    'images/interfaces/PBi5.png',
+                ])">
+                    <div class="project-img">
+                        <img src="images/interfaces/PBi1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-key="proj-6-title">نظام تحليل بيانات المبيعات</h3>
+                        <p data-key="proj-6-desc">لوحة تحكم تفاعلية باستخدام Power BI لتحليل بيانات مبيعات شركة تجارية.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="galleryModal" class="gallery-modal">
+        <span class="close" onclick="closeGallery()">&times;</span>
+
+        <img id="galleryImage" class="gallery-image">
+
+        <button class="prev" onclick="changeImage(-1)">❮</button>
+        <button class="next" onclick="changeImage(1)">❯</button>
+    </div>
+
+    <!-- Certifications Section -->
+    <section id="certs" class="certs section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="certs-title">الشهادات والدورات</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="certs-list">
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>Computer Science (62 Hours)</h3>
+                        <p>The workings of computers and software,
+                            not just their use</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>CCNA (80 Hours)</h3>
+                        <p>Cisco Certified Network Associate</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>Data Analysis (80 Hours)</h3>
+                        <p>Professional Data Analysis Certification</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>Flutter Application Development</h3>
+                        <p>Mobile App Development with Dart</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>MikroTik (40 Hours)</h3>
+                        <p>Network Management</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <div>
+                        <h3>CCTV (40 Hours)</h3>
+                        <p>Closed-Circuit TeleVision</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="contact-title">تواصل معي</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>zeyadalhuraishi@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone / Whatsapp</h3>
+                        <p>0579205405</p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="الاسم" required>
+                    <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+                    <textarea name="message" placeholder="رسالتك" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">إرسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><span data-key="footer-text">زياد الحريشي</span> &copy; 2026</p>
+            <div class="social-links">
+                <a href="https://github.com/ZeyadBamj/School_Project.git" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

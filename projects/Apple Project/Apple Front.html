@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Apple Zeyad</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="image/logo.png" alt="Apple Logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a>></a></li>
+                <li><a href="#">Products</a>></a></li>
+                <li><a href="#">News</a>></a></li>
+                <li><a href="#">About</a>></a></li>
+                <li><a href="#">Contact</a>></a></li>
+            </ul>
+
+        </header>
+        <div class=" content">
+            <div class="text">
+                <h2>Iphone 13 pro max</h2>
+                <!-- lorem: means a random word like: <p>lorem20</p>
+                     and will make 20 random word -->
+                     
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Labore,nam ab unde laboriosam reprehenderit
+                    obcaecati soluta aliquam delectus aspernatur
+                    porro!</p>
+                <a href="#">All Products</a>
+
+
+            </div>
+            <div class="image">
+                <img class="img" src="image/0.png" alt="Iphone pro max 13 gold">
+            </div>
+        </div>
+        <div class="icons">
+            <!-- onclick: When you click on the icons, will turn the color........ It's a function that you make it in JS. -->
+            <img onclick="phones(this.src); colors('gold')"  src="image/0.png" alt="IPHONE PRO MAX 13 GOLD">
+            <img onclick="phones(this.src); colors('#247ec8')"  src="image/1.png" alt="IPHONE PRO MAX 13 BLUE">
+            <img onclick="phones(this.src); colors('black')"  src="image/2.png" alt="IPHONE PRO MAX 13 BLACK">
+            <img onclick="phones(this.src); colors('#c79b53')"  src="image/3.png" alt="IPHONE PRO MAX 13 WHITE">
+            <img onclick="phones(this.src); colors('#c82525')"  src="image/4.png" alt="IPHONE PRO MAX 13 RED">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
