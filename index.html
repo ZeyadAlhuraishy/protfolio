@@ -369,10 +369,15 @@
                     </div>
                 </div>
                 <form id="contact-form" class="contact-form">
-                    <input type="text" name="name" placeholder="الاسم" required>
-                    <input type="email" name="email" placeholder="البريد الإلكتروني" required>
-                    <textarea name="message" placeholder="رسالتك" rows="5" required></textarea>
-                    <button type="submit" class="btn primary">إرسال</button>
+                    <h3 data-key="contact-email-note">يمكنك مراسلتي عن طريق الايميل، وسيتم الرد ان شاء الله باسرع وقت
+                        ممكن</h3>
+
+                    <h3 data-key="contact-send-wait">عند الضغط على ارسال انتظر ثوان بسيط حتى تظهر لك رسالة "تم ارسال
+                        الرسالة بنجاح"</h3>
+                    <input type="text" name="name" data-key="contact-name" placeholder="الاسم" required>
+                    <input type="email" name="email" data-key="contact-email" placeholder="البريد الإلكتروني" required>
+                    <textarea name="message" placeholder="رسالتك" data-key="contact-message" rows="5" required></textarea>
+                    <button type="submit" data-key="contact-send" class="btn primary">إرسال</button>
                 </form>
             </div>
         </div>

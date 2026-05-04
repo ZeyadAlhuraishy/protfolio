@@ -71,6 +71,14 @@ const translations = {
     "proj-link": "عرض المشروع",
     "certs-title": "الشهادات والدورات",
     "contact-title": "تواصل معي",
+    "contact-email-note":
+      "يمكنك مراسلتي عن طريق الايميل، وسيتم الرد ان شاء الله باسرع وقت ممكن",
+    "contact-send-wait":
+      'عند الضغط على ارسال انتظر ثوان بسيط حتى تظهر لك رسالة "تم ارسال الرسالة بنجاح"',
+    "contact-name": "الأسم",
+    "contact-email": "الإيميل",
+    "contact-message": "رسالتك",
+    "contact-send": "ارسال",
     "form-name": "الاسم",
     "form-email": "البريد الإلكتروني",
     "form-msg": "رسالتك",
@@ -148,6 +156,14 @@ const translations = {
     "proj-link": "View Project",
     "certs-title": "Certifications",
     "contact-title": "Contact Me",
+    "contact-email-note":
+      "You can contact me via email, and I will respond as soon as possible, God willing.",
+    "contact-send-wait":
+      "After clicking send, please wait a few seconds until the 'Message sent successfully' notification appears.",
+    "contact-name": "Name",
+    "contact-email": "Email",
+    "contact-message": "Your Message",
+    "contact-send": "Send",
     "form-name": "Name",
     "form-email": "Email",
     "form-msg": "Your Message",
