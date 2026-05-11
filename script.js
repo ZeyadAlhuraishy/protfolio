@@ -13,7 +13,7 @@ const translations = {
       "خريج هندسة تكنولوجيا معلومات يشغف لتطوير البرمجيات وتحليل البيانات. أسعى لبناء حلول تقنية مبتكرة.",
     "btn-contact": "تواصل معي",
     "btn-cv": "تحميل السيرة الذاتية الإنجليزية",
-    "btn-cv2": "تحميل السيرة الذاتية عربي/انجليزي",
+    "btn-cv2": "تحميل السيرة الذاتية العربية",
     "about-title": "من أنا",
     "about-intro":
       "أنا مهندس تقنية معلومات أمتلك أساسًا قويًا في علوم الحاسوب، مع خبرة عملية في تطوير التطبيقات، تحليل البيانات، وإدارة الأنظمة، وأجمع بين الفهم النظري والتطبيقي لبناء حلول تقنية متكاملة وقابلة للتوسع.",
@@ -98,7 +98,7 @@ const translations = {
       "Information Technology Engineer graduate with a passion for software development and data analysis. Seeking to build innovative technical solutions.",
     "btn-contact": "Contact Me",
     "btn-cv": "Download En CV",
-    "btn-cv2": "Download Ar/En CV",
+    "btn-cv2": "Download Ar CV",
     "about-title": "About Me",
     "about-intro":
       "I am an Information Technology engineer with a strong foundation in computer science, possessing hands-on experience in application development, data analysis, and systems management. I combine theoretical knowledge with practical implementation to build scalable and efficient technical solutions.",
@@ -317,3 +317,30 @@ document
         );
     });
   });
+
+  const button = document.getElementById("whatsappBtn");
+
+    button.addEventListener("click", function(e){
+
+      const ripple = document.createElement("span");
+      ripple.classList.add("ripple");
+
+      const rect = button.getBoundingClientRect();
+
+      const size = Math.max(rect.width, rect.height);
+
+      ripple.style.width = ripple.style.height = size + "px";
+
+      ripple.style.left =
+        e.clientX - rect.left - size / 2 + "px";
+
+      ripple.style.top =
+        e.clientY - rect.top - size / 2 + "px";
+
+      button.appendChild(ripple);
+
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
+
+    });
