@@ -1,5 +1,6 @@
 export const translations = {
   ar: {
+    "logo": "زياد",
     "nav-home": "الرئيسية",
     "nav-about": "من أنا",
     "nav-skills": "المهارات",
@@ -40,7 +41,7 @@ export const translations = {
     "info-edu-val":
       "بكالوريوس هندسة تكنولوجيا معلومات - كلية الهندسة - جامعة عدن",
     "info-lang-label": "📖 اللغات:",
-    "info-lang-val": "العربية (الأم)، الإنجليزية (متوسط)",
+    "info-lang-val": "العربية (الأم)، الإنجليزية (متوسط - B2)",
     "skills-title": "المهارات التقنية",
     "skill-desc-1": "تطوير التطبيقات والبرمجة الخلفية",
     "skill-desc-2": "بناء واجهات لتطبيقات موبايل متكاملة",
@@ -95,10 +96,11 @@ export const translations = {
     "form-email": "البريد الإلكتروني",
     "form-msg": "رسالتك",
     "form-btn": "إرسال",
-    "whatsapp": "تواصل معي عبر واتساب",
+    whatsapp: "تواصل معي عبر واتساب",
     "footer-text": "زياد الحريشي",
   },
-  en: {
+    en: {
+    "logo": "Zeyad",
     "nav-home": "Home",
     "nav-about": "About",
     "nav-skills": "Skills",
@@ -139,7 +141,7 @@ export const translations = {
     "info-edu-val":
       "B.Sc. in IT Engineering - Faculty of Engineering - University of Aden",
     "info-lang-label": "📖 Languages:",
-    "info-lang-val": "Arabic (Native), English (Intermediate)",
+    "info-lang-val": "Arabic (Native), English (Intermediate - B2)",
     "skills-title": "Technical Skills",
     "skill-desc-1": "App development and BackEnd",
     "skill-desc-2": "Building full Interfaces mobile applications",
@@ -175,7 +177,8 @@ export const translations = {
     "data-analysis-certif": "Data Analysis (Clever Institute - 80H)",
     "mikrotik-certif": "MikroTik (Clever Institute - 40H)",
     "cctv-certif": "CCTV (Clever Institute - 40H)",
-    "cs-certif-desc": "The workings of computers and software, not just their use",
+    "cs-certif-desc":
+      "The workings of computers and software, not just their use",
     "flutter-certif-desc": "Mobile App Development with Dart",
     "ccna-certif-desc": "Cisco Certified Network Associate",
     "data-analysis-certif-desc": "Professional Data Analysis Certification",
@@ -194,7 +197,7 @@ export const translations = {
     "form-email": "Email",
     "form-msg": "Your Message",
     "form-btn": "Send",
-    "whatsapp": "Contact me via WhatsApp",
+    whatsapp: "Contact me via WhatsApp",
     "footer-text": "Zeyad Alhuraishi",
   },
 };
