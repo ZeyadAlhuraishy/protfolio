@@ -122,6 +122,10 @@ img {
     transition: var(--transition);
 }
 
+#theme-toggle{
+    margin-inline: 20px;
+}
+
 .btn-icon:hover {
     color: var(--primary-color);
 }
