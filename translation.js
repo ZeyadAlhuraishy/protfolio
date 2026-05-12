@@ -96,7 +96,7 @@ export const translations = {
     "form-email": "البريد الإلكتروني",
     "form-msg": "رسالتك",
     "form-btn": "إرسال",
-    whatsapp: "تواصل معي عبر واتساب",
+    "whatsapp": "تواصل معي عبر واتساب",
     "footer-text": "زياد الحريشي",
   },
     en: {
@@ -197,7 +197,7 @@ export const translations = {
     "form-email": "Email",
     "form-msg": "Your Message",
     "form-btn": "Send",
-    whatsapp: "Contact me via WhatsApp",
+    "whatsapp": "Contact me via WhatsApp",
     "footer-text": "Zeyad Alhuraishi",
   },
 };
